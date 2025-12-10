@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include "Game.hpp"
 /* SDL
 #include <SDL.h>
 #include "res_path.hpp"
@@ -18,5 +19,7 @@ int main(int argc, char **argv){
 
   SDL_Quit();
   */
+  Game game;
+  game.run();
   return 0;
 }
