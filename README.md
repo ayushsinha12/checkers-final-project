@@ -1,3 +1,33 @@
+# Terminal Checkers (CS3520 Final Project)
+
+A fully playable Checkers game that runs in the terminal. The game supports standard diagonal movement, capturing (jumps), king promotion, turn-taking, and win detection (when a player has no pieces left). The game functions exactly how a standard checkers game does.
+
+---
+## Features
+
+- **8x8 checkers board** printed in the terminal with row/column indices.
+- **Two players**: Red (`r` man, `R` king) vs Black (`b` man, `B` king).
+- **Legal move validation**:
+  - Pieces can only move diagonally to valid squares.
+  - Captures remove opponent pieces correctly.
+- **Jump capture support** (2-square diagonal moves remove the jumped piece).
+- **King promotion**:
+  - Red promotes upon reaching row `7`.
+  - Black promotes upon reaching row `0`.
+- **Game over detection**:
+  - A winner is declared when the opponent has no pieces remaining.
+- **Robust input handling**:
+  - Invalid moves and out-of-bounds moves are rejected with clear error messages.
+  - Input failure states are handled so the program does not get stuck repeating errors.
+
+
+
+
+
+
+
+
+
 # cs3520-proj
 
 ## Instructions
