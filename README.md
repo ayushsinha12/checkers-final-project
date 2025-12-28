@@ -28,6 +28,7 @@ This project follows the class starter structure:
 - `include/` : all `.hpp` header files
 - `bin/` : compiled executables (created by the Makefile)
 - `build/` : intermediate object files (created by the Makefile)
+- `screenshots/` : pictures for README.md
 
 ## Build and Run
 
@@ -82,3 +83,16 @@ This project was designed to demonstrate several course concepts, including:
   - Board tiles store dynamically allocated Piece objects and clean them up safely.
 - STL container, not vector/string
   - Legal moves are collected and returned using std::list.
+## Pictures
+
+### Winning the Game
+![Winning the game](screenshots/winGame.png)
+
+### Quitting the Game
+![Quit option](screenshots/quit.png)
+
+### Invalid Move Handling
+![Invalid move](screenshots/invalidMove.png)
+
+### Out-of-Bounds Handling
+![Out of bounds move](screenshots/outOfBounds.png)
